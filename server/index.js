@@ -10,7 +10,10 @@ import fileUpload from "express-fileupload";
 import { app, server, io } from "./config/socket.js";
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: [
+      "http://localhost:5173",
+      "https://pinterest-frontend-xi.vercel.app/",
+    ],
     credentials: true,
   })
 );
