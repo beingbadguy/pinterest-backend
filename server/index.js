@@ -12,7 +12,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://pinterest-frontend-xi.vercel.app/",
+      "https://pinterest-frontend-xi.vercel.app",
     ],
     credentials: true,
   })
