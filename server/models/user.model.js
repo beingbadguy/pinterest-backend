@@ -27,7 +27,7 @@ const userSchema = new mongoose.Schema(
     profilePic: {
       type: String,
       default:
-        "https://images.unsplash.com/photo-1724889675304-4eb73c1c496e?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://img.icons8.com/?size=100&id=84861&format=png&color=000000",
     },
     posts: [
       {

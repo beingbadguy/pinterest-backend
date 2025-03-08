@@ -7,7 +7,6 @@ const setCookieAndGenerateToken = (res, userId) => {
   res.cookie("Pinterest", token, {
     httpOnly: true,
     sameSite: process.env.NODE_ENV === "production" ? "None" : "Lax",
-
     secure: process.env.NODE_ENV === "production", // Cookie secure only if in production environment
     expires: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000),
   });
