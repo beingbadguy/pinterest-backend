@@ -23,7 +23,7 @@ export const forgetPasswordMail = (email, verificationCode) => {
   // TODO: work on template
   const template =
     "Your password reset link is  : " +
-    "http://localhost:5173/change/" +
+    "https://pinterest-frontend-xi.vercel.app/change/" +
     verificationCode;
   sendMail(email, "Pinterest 📷", ``, template);
 };
